@@ -9,9 +9,12 @@ Proyecto académico que implementa un **microblog** utilizando servicios de AWS:
 ---
 
 ## Estructura del repositorio
-aws-microblog/ ├── frontend/         # Archivos estáticos (HTML, JS, CSS) │   ├── index.html │   ├── app.js │   └── style.css ├── backend/          # Código de Lambda y dependencias │   ├── lambda_function.js │   ├── package.json │   └── package-lock.json ├── infra/            # Scripts de despliegue con AWS CLI │   ├── deploy.sh │   └── dynamodb_setup.sh ├── docs/             # Documentación y diagramas └── README.md  
+aws-microblog/ ├── frontend/         # Archivos estáticos (HTML, JS, CSS) │   ├── index.html │   ├── app.js │   └── style.css ├── backend/          
+# Código de Lambda y dependencias │   ├── lambda_function.js │   ├── package.json │   └── package-lock.json ├── infra/           
+# Scripts de despliegue con AWS CLI │   ├── deploy.sh │   └── dynamodb_setup.sh ├── docs/            
+# Documentación y diagramas └── README.md  
         
-# Documentación y diagramas └── README.md   
+
 
 
 
